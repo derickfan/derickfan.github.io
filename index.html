@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>derickfan.dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="scripts.js"></script>
+    <!-- Font Aweseome -->
+    <script src="https://kit.fontawesome.com/44d7eb7628.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#"><img src="logo.svg"></a>
+            <input type="checkbox" class="toggle" id="toggle">
+            <ul class="menu">
+                <li class="nav-link"><a class="nav-text" href="#">Home</a></li>
+                <li class="nav-link"><a class="nav-text" href="#about-section">About</a></li>
+                <li class="nav-link"><a class="nav-text" href="#projects-section">Projects</a></li>
+            </ul>
+            <label class="menu-icon" for="toggle">
+                <span class="nav-icon"></span>
+            </label>
+        </nav>
+
+        <section class="contact-section">
+            <a href="mailto:contact@derickfan.dev"><i class="fas fa-envelope-square fa-4x"></i></a>
+            <a href="https://github.com/derickfan"><i class="fab fa-github-square fa-4x"></i></a>
+            <a href="https://www.linkedin.com/in/derickfan/"><i class="fab fa-linkedin fa-4x"></i></a>
+        </section>
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <article class="welcome-article">
+                <h1>Derick Fan</h1>
+                <h3>Software Engineer</h3>
+            </article>
+        </section>
+
+        <section class="about-section" id="about-section">
+            <article class="about-article">
+                <h1>About Me</h1>
+                <p>A senior at Brooklyn College majoring in Computer Science. </p>
+                <p>Enjoys creating new projects and learning new technologies. </p>
+                <p>Currently interested in learning and mastering JavaScript and React.</p>
+                <p>Skills: Java, SQL</p>
+            </article>
+        </section>
+
+        <section class="projects-section" id="projects-section">
+            <article class="project-article">
+                <h1 class="project-heading">UrbanScout</h1>
+                <a class="project-link"
+                    href="https://github.com/Convenient-Coders/UrbanScout">https://github.com/Convenient-Coders/UrbanScout</a>
+                <p class="project-description">A web application that utilizes the NYC OpenData Database to display the
+                    public utilities near the users such as water fountains, public WiFi, and public bathrooms.</p>
+                <ul class="technologies">
+                    <li><a href="https://nodejs.org/en/">Node.js</a></li>
+                    <li><a href="https://expressjs.com/">Express.js</a></li>
+                    <li><a href="https://socket.io/">Socket.io</a></li>
+                    <li><a href="https://developers.google.com/maps/documentation">Google Maps API</a></li>
+                </ul>
+            </article>
+
+            <article class="project-article">
+                <h1 class="project-heading">Texet</h1>
+                <a class="project-link" href="https://github.com/derickfan/texet">https://github.com/derickfan/texet</a>
+                <p class="project-description">An application that allows users to communicate with each other through
+                    Node.JS sockets.</p>
+                <ul class="technologies">
+                    <li><a href="https://nodejs.org/en/">Node.js</a></li>
+                    <li><a href="https://expressjs.com/">Express.js</a></li>
+                    <li><a href="https://heroku.com/">Heroku</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
